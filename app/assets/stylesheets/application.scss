@@ -1,0 +1,54 @@
+@import './devise.scss';
+
+hr {
+    width: 100%;
+    color: #f4f4f4;
+}
+
+h2 {
+    /* New Comment */
+
+    height: 36px;
+    left: 0%;
+    right: 54.64%;
+    top: calc(50% - 36px/2);
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+h3 {
+    // position: absolute;
+    width: 56px;
+    height: 25px;
+    left: 30px;
+    top: 17px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.container {
+    padding: 16px 16px;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+

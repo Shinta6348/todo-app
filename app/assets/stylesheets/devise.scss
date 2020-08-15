@@ -1,0 +1,48 @@
+
+.text {
+    /* Name */
+    width: 44px;
+    height: 25px;
+    left: 26px;
+    top: 161px;
+    margin-bottom: 10px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+.text-field {
+    /* Rectangle */
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+    width: 90%;
+    height: 40px;
+    left: 26px;
+    top: 190px;
+    margin-bottom: 10px;
+
+    background: #F4F4F4;
+    border-radius: 10px;
+}
+
+.submit {
+
+    width: 362px;
+    height: 40px;
+    left: 30px;
+    top: 889px;
+
+    background: #F8BD1C;
+    border-radius: 4px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
