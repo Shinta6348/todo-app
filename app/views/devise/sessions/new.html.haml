@@ -9,5 +9,4 @@
     %br/
     = f.password_field :password, autocomplete: "current-password", class: 'text-field'
   .actions
-    = f.submit "Submit"
-= render "devise/shared/links"
+    = f.submit "Submit", class: 'btn-submit'
